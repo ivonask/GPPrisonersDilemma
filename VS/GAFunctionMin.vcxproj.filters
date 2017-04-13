@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\strategies">
+      <UniqueIdentifier>{67517335-97e5-4f94-9191-8c692ef34c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\treePrimitives">
+      <UniqueIdentifier>{229efd17-fcc0-4ad4-976a-1694bc6c5956}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PrisDilemmaEvalOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\PrisDilemmaEvalOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlayerMove.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AlwaysCooperate.h">
+      <Filter>Header Files\strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlayingStrategy.h">
+      <Filter>Header Files\strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IfLessThanEq.h">
+      <Filter>Header Files\treePrimitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IfPositive.h">
+      <Filter>Header Files\treePrimitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AlwaysBetray.h">
+      <Filter>Header Files\strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TitOrTat.h">
+      <Filter>Header Files\strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AlternatingMoves.h">
+      <Filter>Header Files\strategies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

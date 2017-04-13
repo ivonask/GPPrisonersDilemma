@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ECF milestone="Thu Apr 13 10:52:05 2017
+">
+	<Genotype>
+		<Tree>
+			<Entry key="initmindepth">1</Entry>
+			<Entry key="initmaxdepth">5</Entry>
+			<Entry key="mindepth">1</Entry>
+			<Entry key="maxdepth">5</Entry>
+			<Entry key="functionset">+ - * / sin</Entry>
+			<Entry key="terminalset">x y z ifpos iflte[0 1]</Entry>
+			<Entry key="crx.simple">1</Entry>
+			<Entry key="crx.simple.functionprob">0.9</Entry>
+			<Entry key="mut.subtree">0.25</Entry>
+			<Entry key="mut.gauss">0.5</Entry>
+			<Entry key="mut.shrink">0.25</Entry>
+		</Tree>
+	</Genotype>
+	<Registry>
+		<Entry key="Tree.crx.simple">1</Entry>
+		<Entry key="Tree.crx.simple.functionprob">0.9</Entry>
+		<Entry key="Tree.functionset">+ - * / sin</Entry>
+		<Entry key="Tree.initmaxdepth">5</Entry>
+		<Entry key="Tree.initmindepth">1</Entry>
+		<Entry key="Tree.maxdepth">5</Entry>
+		<Entry key="Tree.mindepth">1</Entry>
+		<Entry key="Tree.mut.gauss">0.5</Entry>
+		<Entry key="Tree.mut.shrink">0.25</Entry>
+		<Entry key="Tree.mut.subtree">0.25</Entry>
+		<Entry key="Tree.terminalset">x y z ifpos iflte[0 1]</Entry>
+		<Entry key="batch.logfile_"></Entry>
+		<Entry key="batch.remaining_">0</Entry>
+		<Entry key="log.filename">log.txt</Entry>
+		<Entry key="milestone.elapsedtime_">1</Entry>
+		<Entry key="milestone.filename">milestone.txt</Entry>
+		<Entry key="milestone.generation_">20</Entry>
+		<Entry key="milestone.interval">0</Entry>
+		<Entry key="population.size">30</Entry>
+		<Entry key="term.maxgen">20</Entry>
+	</Registry>
+	<Population size="1">
+		<HallOfFame size="1">
+			<Individual size="1" gen="0">
+				<FitnessMax value="35"/>
+				<Tree size="3">/ 1] 1] </Tree>
+			</Individual>
+		</HallOfFame>
+		<Deme size="30">
+			<HallOfFame size="1">
+				<Individual size="1" gen="0">
+					<FitnessMax value="35"/>
+					<Tree size="3">/ 1] 1] </Tree>
+				</Individual>
+			</HallOfFame>
+			<Individual size="1">
+				<FitnessMax value="33"/>
+				<Tree size="3">+ 1] x </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="33"/>
+				<Tree size="1">ifpos </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="7">* / z 1] - z z </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="33"/>
+				<Tree size="7">* / z 1] - z z </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="13">+ - y 1] + iflte[0 - iflte[0 - z + ifpos ifpos </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="5">+ ifpos + ifpos ifpos </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="34">+ + + + - y 1] sin x * / 1] z z * / z 1] - z z / * / 1] z z - / x x / ifpos iflte[0 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="3">+ x x </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="7">- / x x / ifpos iflte[0 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="15">+ - y 1] + - y 1] / * / 1] z z x </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="33"/>
+				<Tree size="35">+ + + + - y 1] sin x * / 1] z z + / sin x / y 1] ifpos / * / 1] z z - / x x / ifpos iflte[0 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="33"/>
+				<Tree size="24">+ x - + - + y y sin ifpos - / ifpos y sin z sin * / 1] z * 1] z </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="33"/>
+				<Tree size="2">sin x </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="10">- - iflte[0 - z sin x / ifpos iflte[0 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="3">/ 1] z </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="10">+ + ifpos sin x * / x y z </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="11">- - iflte[0 - z + ifpos ifpos / ifpos iflte[0 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="9">+ - z z * / 1] z z </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="6">+ iflte[0 + iflte[0 sin ifpos </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="10">+ + ifpos sin x * / x y z </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="18"/>
+				<Tree size="26">+ + + + ifpos sin x * y z / 1] z / * / 1] z z - / x y / ifpos iflte[0 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="9">+ + ifpos sin x * sin x z </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="33"/>
+				<Tree size="15">+ + ifpos ifpos + - y 1] / * / 1] z z x </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="33"/>
+				<Tree size="3">+ x x </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="7">+ + ifpos sin x sin x </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="11">+ 1] + ifpos - iflte[0 - z + ifpos ifpos </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="2">sin ifpos </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="11">+ iflte[0 + iflte[0 / * + ifpos ifpos z x </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="3">/ 1] z </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="35"/>
+				<Tree size="10">+ + ifpos sin x * / 1] z z </Tree>
+			</Individual>
+		</Deme>
+	</Population>
+</ECF>
