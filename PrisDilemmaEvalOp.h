@@ -9,7 +9,7 @@ public:
 	FitnessP evaluate(IndividualP individual);
 	//void registerParameters(StateP);
 	bool initialize(StateP);
-	static int play(int myMove, int enemyMove);
+	//static int play(int myMove, int enemyMove);
 };
 //typedef boost::shared_ptr<PrisDilemmaEvalOp> PrisDilemmaEvalOp;
 

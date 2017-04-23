@@ -5,6 +5,7 @@
 
 #include "Game.h"
 #include "PlayingStrategy.h"
+#include "PrisonersDilemma.h"
 
 #include "AlwaysCooperate.h"
 #include "AlwaysBetray.h"
@@ -36,56 +37,8 @@ int main(int argc, char **argv)
 	PlayingStrategy *ps3 = new TitOrTat();
 	PlayingStrategy *ps4 = new AlternatingMoves();
 
-	PlayerMove myMove = (PlayerMove)(rand() % 2 + 1);	//prvi potez - 1(izdaja) ili 2(suradnja)
-	//int enemyMove = rand() % 2 + 1;
-	PlayerMove enemyMove = ps4->getFirstMove();
-	int myResult = Game::playMove(myMove, enemyMove);
-
-	std::stringstream myMoves, enemyMoves, round, res;
-	myMoves << "My moves:     " << (int)myMove;
-	enemyMoves << "Enemy moves:  " << (int)enemyMove;
-	round << "Round:        0";
-	res << "Result:       " << myResult;
-
-	int sum = myResult;
-	int enemySum = Game::enemyResult(myResult);
-
-	//x = moj zadnji potez
-	//y = protivnicki zadnji potez
-	//z = moji bodovi
-
-	for (int i = 0; i < 10; i++) {
-		tree2->setTerminalValue("x", &myMove);
-		tree2->setTerminalValue("y", &enemyMove);
-		tree2->setTerminalValue("z", &myResult);
-
-		double result;
-		tree2->execute(&result);
-
-		enemyMove = ps4->getNextMove(myMove);
-
-		if (result > abs(1)) {
-			myMove = PlayerMove::cooperation;
-		}
-		else {
-			myMove = PlayerMove::treason;
-		}
-
-		myResult = Game::playMove(myMove, enemyMove);
-		sum += myResult;
-
-		myMoves << " " << (int)myMove;
-		enemyMoves << " " << (int)enemyMove;
-		round << " "<< i+1;
-		res << " " << myResult;
-
-		enemySum += Game::enemyResult(myResult);
-	}
-
-	std::cout << round.str() << endl;
-	std::cout << myMoves.str() << "  sum: " << sum << endl;
-	std::cout << enemyMoves.str() << "  sum: " << enemySum << endl;
-	std::cout << res.str() << endl;
+	Game *game = new PrisonersDilemma(ps1);
+	int sum = game->play (10, tree2, true);
 
 	return 0;
 }

@@ -105,6 +105,7 @@
     <ClInclude Include="..\IfPositive.h" />
     <ClInclude Include="..\PlayingStrategy.h" />
     <ClInclude Include="..\PrisDilemmaEvalOp.h" />
+    <ClInclude Include="..\PrisonersDilemma.h" />
     <ClInclude Include="..\TitOrTat.h" />
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,4 @@
-Start time: Thu Apr 13 10:52:04 2017
+Start time: Sun Apr 23 17:34:10 2017
 
 Evaluating initial population...
 Generation: 0
@@ -6,218 +6,218 @@ Elapsed time: 0
 Deme: 0
 Evaluations: 30
 Stats: fitness
-	max: 35
-	min: 18
-	avg: 30.7333
-	stdev: 5.83647
+	max: 55
+	min: 33
+	avg: 47.6667
+	stdev: 9.44433
 
 Generation: 1
 Elapsed time: 0
 Deme: 0
 Evaluations: 60
 Stats: fitness
-	max: 35
-	min: 20
-	avg: 33.6333
-	stdev: 2.90639
+	max: 55
+	min: 53
+	avg: 54.4667
+	stdev: 0.899553
 
 Generation: 2
 Elapsed time: 0
 Deme: 0
 Evaluations: 90
 Stats: fitness
-	max: 35
-	min: 20
-	avg: 33.8667
-	stdev: 2.87358
+	max: 55
+	min: 35
+	avg: 54
+	stdev: 3.66719
 
 Generation: 3
-Elapsed time: 0
+Elapsed time: 1
 Deme: 0
 Evaluations: 120
 Stats: fitness
-	max: 35
-	min: 20
-	avg: 33.8
-	stdev: 2.86958
+	max: 55
+	min: 33
+	avg: 53.2
+	stdev: 5.28759
 
 Generation: 4
-Elapsed time: 0
+Elapsed time: 1
 Deme: 0
 Evaluations: 150
 Stats: fitness
-	max: 35
-	min: 20
-	avg: 33.9667
-	stdev: 2.78522
+	max: 55
+	min: 35
+	avg: 53.9333
+	stdev: 3.66656
 
 Generation: 5
-Elapsed time: 0
+Elapsed time: 1
 Deme: 0
 Evaluations: 180
 Stats: fitness
-	max: 35
-	min: 18
-	avg: 34.1
-	stdev: 3.13325
+	max: 55
+	min: 53
+	avg: 54.3333
+	stdev: 0.958927
 
 Generation: 6
-Elapsed time: 0
+Elapsed time: 1
 Deme: 0
 Evaluations: 210
 Stats: fitness
-	max: 35
-	min: 18
-	avg: 33.8667
-	stdev: 4.06612
+	max: 55
+	min: 53
+	avg: 54.4
+	stdev: 0.932183
 
 Generation: 7
-Elapsed time: 0
+Elapsed time: 1
 Deme: 0
 Evaluations: 240
 Stats: fitness
-	max: 35
+	max: 55
 	min: 33
-	avg: 34.8667
-	stdev: 0.507416
+	avg: 53.2667
+	stdev: 5.29758
 
 Generation: 8
 Elapsed time: 1
 Deme: 0
 Evaluations: 270
 Stats: fitness
-	max: 35
-	min: 33
-	avg: 34.5333
-	stdev: 0.860366
+	max: 55
+	min: 53
+	avg: 54.7333
+	stdev: 0.691492
 
 Generation: 9
 Elapsed time: 1
 Deme: 0
 Evaluations: 300
 Stats: fitness
-	max: 35
-	min: 23
-	avg: 34.1333
-	stdev: 2.27025
+	max: 55
+	min: 53
+	avg: 54.6
+	stdev: 0.813676
 
 Generation: 10
 Elapsed time: 1
 Deme: 0
 Evaluations: 330
 Stats: fitness
-	max: 35
-	min: 20
-	avg: 34.1667
-	stdev: 2.78027
+	max: 55
+	min: 35
+	avg: 53.4
+	stdev: 5.04873
 
 Generation: 11
 Elapsed time: 1
 Deme: 0
 Evaluations: 360
 Stats: fitness
-	max: 35
-	min: 18
-	avg: 34.1667
-	stdev: 3.13031
+	max: 55
+	min: 33
+	avg: 52.9333
+	stdev: 5.23867
 
 Generation: 12
 Elapsed time: 1
 Deme: 0
 Evaluations: 390
 Stats: fitness
-	max: 35
-	min: 33
-	avg: 34.5333
-	stdev: 0.860366
+	max: 55
+	min: 35
+	avg: 53.8
+	stdev: 4.02064
 
 Generation: 13
 Elapsed time: 1
 Deme: 0
 Evaluations: 420
 Stats: fitness
-	max: 35
-	min: 20
-	avg: 33.6333
-	stdev: 3.42892
+	max: 55
+	min: 53
+	avg: 54.8
+	stdev: 0.610257
 
 Generation: 14
 Elapsed time: 1
 Deme: 0
 Evaluations: 450
 Stats: fitness
-	max: 35
-	min: 18
-	avg: 33.8667
-	stdev: 3.21348
+	max: 55
+	min: 45
+	avg: 54.4667
+	stdev: 1.88887
 
 Generation: 15
 Elapsed time: 1
 Deme: 0
 Evaluations: 480
 Stats: fitness
-	max: 35
-	min: 18
-	avg: 33.8333
-	stdev: 3.25982
+	max: 55
+	min: 33
+	avg: 53.2667
+	stdev: 5.29758
 
 Generation: 16
 Elapsed time: 1
 Deme: 0
 Evaluations: 510
 Stats: fitness
-	max: 35
-	min: 18
-	avg: 34.0333
-	stdev: 3.13471
+	max: 55
+	min: 53
+	avg: 54.4667
+	stdev: 0.899553
 
 Generation: 17
-Elapsed time: 1
+Elapsed time: 2
 Deme: 0
 Evaluations: 540
 Stats: fitness
-	max: 35
+	max: 55
 	min: 33
-	avg: 34.4
-	stdev: 0.932183
+	avg: 53.6667
+	stdev: 4.49776
 
 Generation: 18
-Elapsed time: 1
+Elapsed time: 2
 Deme: 0
 Evaluations: 570
 Stats: fitness
-	max: 35
-	min: 18
-	avg: 33.3
-	stdev: 4.06965
+	max: 55
+	min: 53
+	avg: 54.6667
+	stdev: 0.758098
 
 Generation: 19
-Elapsed time: 1
+Elapsed time: 2
 Deme: 0
 Evaluations: 600
 Stats: fitness
-	max: 35
-	min: 18
-	avg: 34.1
-	stdev: 3.13325
+	max: 55
+	min: 45
+	avg: 53.8
+	stdev: 2.55154
 
 Generation: 20
-Elapsed time: 1
+Elapsed time: 2
 Deme: 0
 Evaluations: 630
 Stats: fitness
-	max: 35
-	min: 18
-	avg: 33.9
-	stdev: 3.13325
+	max: 55
+	min: 35
+	avg: 54.0667
+	stdev: 3.66656
 
 Termination: max generation reached (20)
 
 Best of run: 
 <HallOfFame size="1">
 	<Individual size="1" gen="0">
-		<FitnessMax value="35"/>
-		<Tree size="3">/ 1] 1] </Tree>
+		<FitnessMax value="55"/>
+		<Tree size="7">/ x - * z y x </Tree>
 	</Individual>
 </HallOfFame>
 
