@@ -94,11 +94,14 @@
   <ItemGroup>
     <ClCompile Include="..\PrisDilemmaEvalOp.cpp" />
     <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\RockPaperScissorsEvalOp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\AlternatingMoves.h" />
     <ClInclude Include="..\AlwaysBetray.h" />
     <ClInclude Include="..\AlwaysCooperate.h" />
+    <ClInclude Include="..\Grudger.h" />
+    <ClInclude Include="..\Pavlov.h" />
     <ClInclude Include="..\PlayerMove.h" />
     <ClInclude Include="..\Game.h" />
     <ClInclude Include="..\IfLessThanEq.h" />
@@ -106,7 +109,13 @@
     <ClInclude Include="..\PlayingStrategy.h" />
     <ClInclude Include="..\PrisDilemmaEvalOp.h" />
     <ClInclude Include="..\PrisonersDilemma.h" />
-    <ClInclude Include="..\TitOrTat.h" />
+    <ClInclude Include="..\RockPaperScissors.h" />
+    <ClInclude Include="..\RockPaperScissorsEvalOp.h" />
+    <ClInclude Include="..\ScissorsOnly.h" />
+    <ClInclude Include="..\SuspiciousTitForTat.h" />
+    <ClInclude Include="..\TitForTatRPS.h" />
+    <ClInclude Include="..\TitForTwoTats.h" />
+    <ClInclude Include="..\TitForTat.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

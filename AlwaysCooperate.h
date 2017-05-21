@@ -4,7 +4,7 @@
 class AlwaysCooperate : public PlayingStrategy
 {
 public:
-	virtual PlayerMove getNextMove(PlayerMove lastEnemyMove) {
+	virtual PlayerMove getNextMove(PlayerMove lastEnemyMove, int lastResult) {
 		return PlayerMove::cooperation;
 	}
 	virtual PlayerMove getFirstMove() {

@@ -1,0 +1,4 @@
+<Individual size="1">
+	<FitnessMax value="63"/>
+	<Tree size="26">+ D_1.94803 + - D_-1.06712 iflte ifpos y y x z D_1.19416 x iflte + - D_-1.06712 x iflte x D_3.49118 y D_1.8399 D_1.61449 y D_1.8399 </Tree>
+</Individual>

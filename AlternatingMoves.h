@@ -4,7 +4,7 @@
 class AlternatingMoves : public PlayingStrategy
 {
 public:
-	virtual PlayerMove getNextMove(PlayerMove lastEnemyMove) {
+	virtual PlayerMove getNextMove(PlayerMove lastEnemyMove, int lastResult) {
 		if (myLastMove == PlayerMove::cooperation) {
 			myLastMove = PlayerMove::treason;
 			return PlayerMove::treason;

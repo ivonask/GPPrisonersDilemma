@@ -5,7 +5,7 @@
 
 class PlayingStrategy {
 public:
-	virtual PlayerMove getNextMove(PlayerMove lastEnemyMove) = 0;
+	virtual PlayerMove getNextMove(PlayerMove lastEnemyMove, int lastResult) = 0;
 	virtual PlayerMove getFirstMove() = 0;
 	virtual char* getName() {
 		return name;

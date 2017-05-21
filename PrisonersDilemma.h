@@ -16,6 +16,7 @@ public:
 
 		std::stringstream myMoves, enemyMoves, round, res;
 		if (print) {
+			std::cout << "Playing against: \"" << strategy->getName() << "\"\n";
 			myMoves << "My moves:     " << (int)myMove;
 			enemyMoves << "Enemy moves:  " << (int)enemyMove;
 			round << "Round:        0";
@@ -25,19 +26,28 @@ public:
 		int sum = myResult;
 		int enemySum = enemyResult(myResult);
 
+		//OSNOVNI PARAMETRI
 		//x = moj zadnji potez
 		//y = protivnicki zadnji potez
 		//z = moji bodovi
+
+		//DODATNI PARAMETRI
+		//n = broj poteza do kraja
+
+
 
 		for (int i = 0; i < nMoves; i++) {
 			tree->setTerminalValue("x", &myMove);
 			tree->setTerminalValue("y", &enemyMove);
 			tree->setTerminalValue("z", &myResult);
 
+			int nEnd = nMoves - i;
+			tree->setTerminalValue("n", &nEnd);
+
 			double result;
 			tree->execute(&result);
 
-			enemyMove = strategy->getNextMove(myMove);
+			enemyMove = strategy->getNextMove(myMove, enemyResult(myResult));
 
 			if (result > abs(1)) {
 				myMove = PlayerMove::cooperation;
@@ -62,43 +72,34 @@ public:
 			std::cout << round.str() << endl;
 			std::cout << myMoves.str() << "  sum: " << sum << endl;
 			std::cout << enemyMoves.str() << "  sum: " << enemySum << endl;
-			std::cout << res.str() << endl;
+			std::cout << res.str() << endl << endl;
 		}
 
 		return sum;
 	}
 
 	int playMove(PlayerMove myMove, PlayerMove enemyMove) {
-		int myResult = 0;
 		switch (myMove)
 		{
 		case PlayerMove::treason:
 			switch (enemyMove)
 			{
 			case PlayerMove::treason:
-				myResult += 1;
-				break;
+				return 1;
 			case PlayerMove::cooperation:
-				myResult += 5;
-				break;
+				return 5;
 			}
 			break;
 		case PlayerMove::cooperation:
 			switch (enemyMove)
 			{
 			case PlayerMove::treason:
-				myResult += 0;
-				break;
+				return 0;
 			case PlayerMove::cooperation:
-				myResult += 3;
-				break;
+				return 3;
 			}
 			break;
-			//default:
-			/*cout << "greska!";
-			exit(1);*/
 		}
-		return myResult;
 	};
 
 	static int enemyResult(int res) {

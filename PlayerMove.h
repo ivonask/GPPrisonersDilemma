@@ -3,8 +3,12 @@
 
 enum class PlayerMove
 {
-	treason = (int)1 ,
-	cooperation = (int)2
+	treason = (int)100 ,
+	cooperation = (int)200,
+
+	rock = (int)1, 
+	paper = (int)2, 
+	scissors = (int)3
 };
 
 #endif

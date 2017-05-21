@@ -1,223 +1,1023 @@
-Start time: Sun Apr 23 17:34:10 2017
+Start time: Tue May 16 12:36:18 2017
 
 Evaluating initial population...
 Generation: 0
 Elapsed time: 0
 Deme: 0
-Evaluations: 30
+Evaluations: 50
 Stats: fitness
-	max: 55
-	min: 33
-	avg: 47.6667
-	stdev: 9.44433
+	max: 34
+	min: 18
+	avg: 22.52
+	stdev: 2.93633
 
 Generation: 1
 Elapsed time: 0
 Deme: 0
-Evaluations: 60
+Evaluations: 100
 Stats: fitness
-	max: 55
-	min: 53
-	avg: 54.4667
-	stdev: 0.899553
+	max: 34
+	min: 19
+	avg: 23.46
+	stdev: 3.17651
 
 Generation: 2
-Elapsed time: 0
-Deme: 0
-Evaluations: 90
-Stats: fitness
-	max: 55
-	min: 35
-	avg: 54
-	stdev: 3.66719
-
-Generation: 3
-Elapsed time: 1
-Deme: 0
-Evaluations: 120
-Stats: fitness
-	max: 55
-	min: 33
-	avg: 53.2
-	stdev: 5.28759
-
-Generation: 4
 Elapsed time: 1
 Deme: 0
 Evaluations: 150
 Stats: fitness
-	max: 55
-	min: 35
-	avg: 53.9333
-	stdev: 3.66656
+	max: 34
+	min: 19
+	avg: 25.26
+	stdev: 3.80016
+
+Generation: 3
+Elapsed time: 1
+Deme: 0
+Evaluations: 200
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 29.18
+	stdev: 4.13887
+
+Generation: 4
+Elapsed time: 2
+Deme: 0
+Evaluations: 250
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 31.76
+	stdev: 3.97215
 
 Generation: 5
-Elapsed time: 1
-Deme: 0
-Evaluations: 180
-Stats: fitness
-	max: 55
-	min: 53
-	avg: 54.3333
-	stdev: 0.958927
-
-Generation: 6
-Elapsed time: 1
-Deme: 0
-Evaluations: 210
-Stats: fitness
-	max: 55
-	min: 53
-	avg: 54.4
-	stdev: 0.932183
-
-Generation: 7
-Elapsed time: 1
-Deme: 0
-Evaluations: 240
-Stats: fitness
-	max: 55
-	min: 33
-	avg: 53.2667
-	stdev: 5.29758
-
-Generation: 8
-Elapsed time: 1
-Deme: 0
-Evaluations: 270
-Stats: fitness
-	max: 55
-	min: 53
-	avg: 54.7333
-	stdev: 0.691492
-
-Generation: 9
-Elapsed time: 1
+Elapsed time: 3
 Deme: 0
 Evaluations: 300
 Stats: fitness
-	max: 55
-	min: 53
-	avg: 54.6
-	stdev: 0.813676
+	max: 34
+	min: 20
+	avg: 32.74
+	stdev: 2.79073
 
-Generation: 10
-Elapsed time: 1
+Generation: 6
+Elapsed time: 3
 Deme: 0
-Evaluations: 330
+Evaluations: 350
 Stats: fitness
-	max: 55
-	min: 35
-	avg: 53.4
-	stdev: 5.04873
+	max: 34
+	min: 19
+	avg: 32.82
+	stdev: 2.45523
 
-Generation: 11
-Elapsed time: 1
+Generation: 7
+Elapsed time: 4
 Deme: 0
-Evaluations: 360
+Evaluations: 400
 Stats: fitness
-	max: 55
-	min: 33
-	avg: 52.9333
-	stdev: 5.23867
+	max: 34
+	min: 19
+	avg: 32.18
+	stdev: 3.43862
 
-Generation: 12
-Elapsed time: 1
-Deme: 0
-Evaluations: 390
-Stats: fitness
-	max: 55
-	min: 35
-	avg: 53.8
-	stdev: 4.02064
-
-Generation: 13
-Elapsed time: 1
-Deme: 0
-Evaluations: 420
-Stats: fitness
-	max: 55
-	min: 53
-	avg: 54.8
-	stdev: 0.610257
-
-Generation: 14
-Elapsed time: 1
+Generation: 8
+Elapsed time: 5
 Deme: 0
 Evaluations: 450
 Stats: fitness
-	max: 55
-	min: 45
-	avg: 54.4667
-	stdev: 1.88887
+	max: 34
+	min: 20
+	avg: 32.5
+	stdev: 3.06561
 
-Generation: 15
-Elapsed time: 1
+Generation: 9
+Elapsed time: 5
 Deme: 0
-Evaluations: 480
+Evaluations: 500
 Stats: fitness
-	max: 55
-	min: 33
-	avg: 53.2667
-	stdev: 5.29758
+	max: 34
+	min: 23
+	avg: 33.02
+	stdev: 2.34294
 
-Generation: 16
-Elapsed time: 1
+Generation: 10
+Elapsed time: 6
 Deme: 0
-Evaluations: 510
+Evaluations: 550
 Stats: fitness
-	max: 55
-	min: 53
-	avg: 54.4667
-	stdev: 0.899553
+	max: 34
+	min: 19
+	avg: 32.28
+	stdev: 3.7035
 
-Generation: 17
-Elapsed time: 2
-Deme: 0
-Evaluations: 540
-Stats: fitness
-	max: 55
-	min: 33
-	avg: 53.6667
-	stdev: 4.49776
-
-Generation: 18
-Elapsed time: 2
-Deme: 0
-Evaluations: 570
-Stats: fitness
-	max: 55
-	min: 53
-	avg: 54.6667
-	stdev: 0.758098
-
-Generation: 19
-Elapsed time: 2
+Generation: 11
+Elapsed time: 7
 Deme: 0
 Evaluations: 600
 Stats: fitness
-	max: 55
-	min: 45
-	avg: 53.8
-	stdev: 2.55154
+	max: 34
+	min: 19
+	avg: 32.08
+	stdev: 3.57337
+
+Generation: 12
+Elapsed time: 7
+Deme: 0
+Evaluations: 650
+Stats: fitness
+	max: 34
+	min: 21
+	avg: 32.74
+	stdev: 2.94722
+
+Generation: 13
+Elapsed time: 8
+Deme: 0
+Evaluations: 700
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 32.74
+	stdev: 3.02243
+
+Generation: 14
+Elapsed time: 8
+Deme: 0
+Evaluations: 750
+Stats: fitness
+	max: 34
+	min: 23
+	avg: 32.84
+	stdev: 2.45249
+
+Generation: 15
+Elapsed time: 9
+Deme: 0
+Evaluations: 800
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 32.26
+	stdev: 4.07486
+
+Generation: 16
+Elapsed time: 10
+Deme: 0
+Evaluations: 850
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 32.7
+	stdev: 3.32124
+
+Generation: 17
+Elapsed time: 10
+Deme: 0
+Evaluations: 900
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 33.06
+	stdev: 2.70608
+
+Generation: 18
+Elapsed time: 11
+Deme: 0
+Evaluations: 950
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 32.76
+	stdev: 3.06767
+
+Generation: 19
+Elapsed time: 11
+Deme: 0
+Evaluations: 1000
+Stats: fitness
+	max: 34
+	min: 23
+	avg: 32.8
+	stdev: 2.6573
 
 Generation: 20
-Elapsed time: 2
+Elapsed time: 12
 Deme: 0
-Evaluations: 630
+Evaluations: 1050
 Stats: fitness
-	max: 55
-	min: 35
-	avg: 54.0667
-	stdev: 3.66656
+	max: 34
+	min: 19
+	avg: 32.84
+	stdev: 2.85257
 
-Termination: max generation reached (20)
+Generation: 21
+Elapsed time: 13
+Deme: 0
+Evaluations: 1100
+Stats: fitness
+	max: 34
+	min: 20
+	avg: 32.9
+	stdev: 2.65922
+
+Generation: 22
+Elapsed time: 13
+Deme: 0
+Evaluations: 1150
+Stats: fitness
+	max: 34
+	min: 24
+	avg: 32.8
+	stdev: 2.47436
+
+Generation: 23
+Elapsed time: 14
+Deme: 0
+Evaluations: 1200
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 32.6
+	stdev: 3.11677
+
+Generation: 24
+Elapsed time: 15
+Deme: 0
+Evaluations: 1250
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 32.7
+	stdev: 2.97095
+
+Generation: 25
+Elapsed time: 15
+Deme: 0
+Evaluations: 1300
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 32.56
+	stdev: 3.09812
+
+Generation: 26
+Elapsed time: 16
+Deme: 0
+Evaluations: 1350
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 31.62
+	stdev: 3.94291
+
+Generation: 27
+Elapsed time: 17
+Deme: 0
+Evaluations: 1400
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 32.26
+	stdev: 3.5846
+
+Generation: 28
+Elapsed time: 17
+Deme: 0
+Evaluations: 1450
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 31.92
+	stdev: 4.20321
+
+Generation: 29
+Elapsed time: 18
+Deme: 0
+Evaluations: 1500
+Stats: fitness
+	max: 34
+	min: 24
+	avg: 32.82
+	stdev: 2.01717
+
+Generation: 30
+Elapsed time: 18
+Deme: 0
+Evaluations: 1550
+Stats: fitness
+	max: 34
+	min: 22
+	avg: 32.68
+	stdev: 2.82438
+
+Generation: 31
+Elapsed time: 19
+Deme: 0
+Evaluations: 1600
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 32.12
+	stdev: 4.23127
+
+Generation: 32
+Elapsed time: 20
+Deme: 0
+Evaluations: 1650
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 32.08
+	stdev: 3.75712
+
+Generation: 33
+Elapsed time: 20
+Deme: 0
+Evaluations: 1700
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 32.32
+	stdev: 3.51928
+
+Generation: 34
+Elapsed time: 21
+Deme: 0
+Evaluations: 1750
+Stats: fitness
+	max: 34
+	min: 23
+	avg: 32.56
+	stdev: 2.79329
+
+Generation: 35
+Elapsed time: 22
+Deme: 0
+Evaluations: 1800
+Stats: fitness
+	max: 34
+	min: 19
+	avg: 32
+	stdev: 3.86507
+
+Generation: 36
+Elapsed time: 22
+Deme: 0
+Evaluations: 1850
+Stats: fitness
+	max: 34
+	min: 23
+	avg: 32.78
+	stdev: 2.62865
+
+Generation: 37
+Elapsed time: 23
+Deme: 0
+Evaluations: 1900
+Stats: fitness
+	max: 34
+	min: 23
+	avg: 32.8
+	stdev: 2.58725
+
+Generation: 38
+Elapsed time: 23
+Deme: 0
+Evaluations: 1950
+Stats: fitness
+	max: 34
+	min: 30
+	avg: 32.92
+	stdev: 1.68838
+
+Generation: 39
+Elapsed time: 24
+Deme: 0
+Evaluations: 2000
+Stats: fitness
+	max: 50
+	min: 22
+	avg: 32.78
+	stdev: 3.82948
+
+Generation: 40
+Elapsed time: 25
+Deme: 0
+Evaluations: 2050
+Stats: fitness
+	max: 50
+	min: 19
+	avg: 32.42
+	stdev: 4.5941
+
+Generation: 41
+Elapsed time: 25
+Deme: 0
+Evaluations: 2100
+Stats: fitness
+	max: 53
+	min: 20
+	avg: 34
+	stdev: 6.36316
+
+Generation: 42
+Elapsed time: 26
+Deme: 0
+Evaluations: 2150
+Stats: fitness
+	max: 53
+	min: 20
+	avg: 34.2
+	stdev: 8.27832
+
+Generation: 43
+Elapsed time: 26
+Deme: 0
+Evaluations: 2200
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 34.76
+	stdev: 9.71966
+
+Generation: 44
+Elapsed time: 27
+Deme: 0
+Evaluations: 2250
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 39.46
+	stdev: 10.8123
+
+Generation: 45
+Elapsed time: 27
+Deme: 0
+Evaluations: 2300
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 38.46
+	stdev: 13.1835
+
+Generation: 46
+Elapsed time: 27
+Deme: 0
+Evaluations: 2350
+Stats: fitness
+	max: 53
+	min: 20
+	avg: 41.96
+	stdev: 12.5957
+
+Generation: 47
+Elapsed time: 28
+Deme: 0
+Evaluations: 2400
+Stats: fitness
+	max: 53
+	min: 21
+	avg: 47.46
+	stdev: 9.53663
+
+Generation: 48
+Elapsed time: 28
+Deme: 0
+Evaluations: 2450
+Stats: fitness
+	max: 53
+	min: 20
+	avg: 42.52
+	stdev: 14.1828
+
+Generation: 49
+Elapsed time: 28
+Deme: 0
+Evaluations: 2500
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 43.18
+	stdev: 13.9572
+
+Generation: 50
+Elapsed time: 28
+Deme: 0
+Evaluations: 2550
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 46.68
+	stdev: 11.826
+
+Generation: 51
+Elapsed time: 28
+Deme: 0
+Evaluations: 2600
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 43.48
+	stdev: 14.0149
+
+Generation: 52
+Elapsed time: 29
+Deme: 0
+Evaluations: 2650
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 43.14
+	stdev: 14.0988
+
+Generation: 53
+Elapsed time: 29
+Deme: 0
+Evaluations: 2700
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 41.82
+	stdev: 15.0179
+
+Generation: 54
+Elapsed time: 29
+Deme: 0
+Evaluations: 2750
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 41.8
+	stdev: 14.9243
+
+Generation: 55
+Elapsed time: 29
+Deme: 0
+Evaluations: 2800
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 44.9
+	stdev: 13.646
+
+Generation: 56
+Elapsed time: 30
+Deme: 0
+Evaluations: 2850
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 41.88
+	stdev: 14.9347
+
+Generation: 57
+Elapsed time: 30
+Deme: 0
+Evaluations: 2900
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 42.96
+	stdev: 14.1132
+
+Generation: 58
+Elapsed time: 30
+Deme: 0
+Evaluations: 2950
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 41.92
+	stdev: 14.5586
+
+Generation: 59
+Elapsed time: 30
+Deme: 0
+Evaluations: 3000
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 43.98
+	stdev: 13.767
+
+Generation: 60
+Elapsed time: 30
+Deme: 0
+Evaluations: 3050
+Stats: fitness
+	max: 53
+	min: 20
+	avg: 43.32
+	stdev: 13.9407
+
+Generation: 61
+Elapsed time: 31
+Deme: 0
+Evaluations: 3100
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 41.46
+	stdev: 14.517
+
+Generation: 62
+Elapsed time: 31
+Deme: 0
+Evaluations: 3150
+Stats: fitness
+	max: 53
+	min: 20
+	avg: 45.88
+	stdev: 12.3481
+
+Generation: 63
+Elapsed time: 31
+Deme: 0
+Evaluations: 3200
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 42
+	stdev: 15.0197
+
+Generation: 64
+Elapsed time: 31
+Deme: 0
+Evaluations: 3250
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 37.26
+	stdev: 15.5941
+
+Generation: 65
+Elapsed time: 32
+Deme: 0
+Evaluations: 3300
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 42.26
+	stdev: 14.1318
+
+Generation: 66
+Elapsed time: 32
+Deme: 0
+Evaluations: 3350
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 45.36
+	stdev: 12.9926
+
+Generation: 67
+Elapsed time: 32
+Deme: 0
+Evaluations: 3400
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 44.16
+	stdev: 13.6118
+
+Generation: 68
+Elapsed time: 32
+Deme: 0
+Evaluations: 3450
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 42.52
+	stdev: 14.3317
+
+Generation: 69
+Elapsed time: 32
+Deme: 0
+Evaluations: 3500
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 40.22
+	stdev: 14.696
+
+Generation: 70
+Elapsed time: 33
+Deme: 0
+Evaluations: 3550
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 42.54
+	stdev: 14.1799
+
+Generation: 71
+Elapsed time: 33
+Deme: 0
+Evaluations: 3600
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 42.8
+	stdev: 14.4392
+
+Generation: 72
+Elapsed time: 33
+Deme: 0
+Evaluations: 3650
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 40.34
+	stdev: 15.1652
+
+Generation: 73
+Elapsed time: 33
+Deme: 0
+Evaluations: 3700
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 40.8
+	stdev: 15.0591
+
+Generation: 74
+Elapsed time: 33
+Deme: 0
+Evaluations: 3750
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 40.26
+	stdev: 15.4666
+
+Generation: 75
+Elapsed time: 34
+Deme: 0
+Evaluations: 3800
+Stats: fitness
+	max: 53
+	min: 20
+	avg: 41.6
+	stdev: 14.6552
+
+Generation: 76
+Elapsed time: 34
+Deme: 0
+Evaluations: 3850
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 41.92
+	stdev: 14.6341
+
+Generation: 77
+Elapsed time: 34
+Deme: 0
+Evaluations: 3900
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 42.56
+	stdev: 14.6541
+
+Generation: 78
+Elapsed time: 34
+Deme: 0
+Evaluations: 3950
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 42.4
+	stdev: 14.7621
+
+Generation: 79
+Elapsed time: 34
+Deme: 0
+Evaluations: 4000
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 44.96
+	stdev: 13.2757
+
+Generation: 80
+Elapsed time: 35
+Deme: 0
+Evaluations: 4050
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 41.18
+	stdev: 14.7173
+
+Generation: 81
+Elapsed time: 35
+Deme: 0
+Evaluations: 4100
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 43.08
+	stdev: 14.574
+
+Generation: 82
+Elapsed time: 35
+Deme: 0
+Evaluations: 4150
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 42.26
+	stdev: 14.4671
+
+Generation: 83
+Elapsed time: 35
+Deme: 0
+Evaluations: 4200
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 46.54
+	stdev: 12.1289
+
+Generation: 84
+Elapsed time: 36
+Deme: 0
+Evaluations: 4250
+Stats: fitness
+	max: 53
+	min: 18
+	avg: 44.38
+	stdev: 13.656
+
+Generation: 85
+Elapsed time: 36
+Deme: 0
+Evaluations: 4300
+Stats: fitness
+	max: 53
+	min: 18
+	avg: 46.68
+	stdev: 12.2881
+
+Generation: 86
+Elapsed time: 36
+Deme: 0
+Evaluations: 4350
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 47.08
+	stdev: 11.8784
+
+Generation: 87
+Elapsed time: 36
+Deme: 0
+Evaluations: 4400
+Stats: fitness
+	max: 53
+	min: 21
+	avg: 45.08
+	stdev: 12.8918
+
+Generation: 88
+Elapsed time: 36
+Deme: 0
+Evaluations: 4450
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 41.92
+	stdev: 15.01
+
+Generation: 89
+Elapsed time: 37
+Deme: 0
+Evaluations: 4500
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 40.9
+	stdev: 15.0458
+
+Generation: 90
+Elapsed time: 37
+Deme: 0
+Evaluations: 4550
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 44.62
+	stdev: 13.1458
+
+Generation: 91
+Elapsed time: 37
+Deme: 0
+Evaluations: 4600
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 48.92
+	stdev: 9.63802
+
+Generation: 92
+Elapsed time: 37
+Deme: 0
+Evaluations: 4650
+Stats: fitness
+	max: 53
+	min: 18
+	avg: 43.4
+	stdev: 14.0233
+
+Generation: 93
+Elapsed time: 38
+Deme: 0
+Evaluations: 4700
+Stats: fitness
+	max: 53
+	min: 21
+	avg: 44.44
+	stdev: 13.2714
+
+Generation: 94
+Elapsed time: 38
+Deme: 0
+Evaluations: 4750
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 42.44
+	stdev: 14.2043
+
+Generation: 95
+Elapsed time: 38
+Deme: 0
+Evaluations: 4800
+Stats: fitness
+	max: 53
+	min: 19
+	avg: 41.1
+	stdev: 14.6876
+
+Generation: 96
+Elapsed time: 38
+Deme: 0
+Evaluations: 4850
+Stats: fitness
+	max: 53
+	min: 21
+	avg: 42.66
+	stdev: 13.8529
+
+Generation: 97
+Elapsed time: 38
+Deme: 0
+Evaluations: 4900
+Stats: fitness
+	max: 60
+	min: 19
+	avg: 43.46
+	stdev: 14.4846
+
+Generation: 98
+Elapsed time: 39
+Deme: 0
+Evaluations: 4950
+Stats: fitness
+	max: 60
+	min: 19
+	avg: 41.94
+	stdev: 15.065
+
+Generation: 99
+Elapsed time: 39
+Deme: 0
+Evaluations: 5000
+Stats: fitness
+	max: 63
+	min: 19
+	avg: 45.9
+	stdev: 13.2577
+
+Generation: 100
+Elapsed time: 39
+Deme: 0
+Evaluations: 5050
+Stats: fitness
+	max: 63
+	min: 19
+	avg: 44.78
+	stdev: 14.5522
+
+Termination: max generation reached (100)
 
 Best of run: 
 <HallOfFame size="1">
-	<Individual size="1" gen="0">
-		<FitnessMax value="55"/>
-		<Tree size="7">/ x - * z y x </Tree>
+	<Individual size="1" gen="99">
+		<FitnessMax value="63"/>
+		<Tree size="26">+ D_1.94803 + - D_-1.06712 iflte ifpos y y x z D_1.19416 x iflte + - D_-1.06712 x iflte x D_3.49118 y D_1.8399 D_1.61449 y D_1.8399 </Tree>
 	</Individual>
 </HallOfFame>
 

@@ -4,7 +4,7 @@
 class AlwaysBetray : public PlayingStrategy
 {
 public:
-	virtual PlayerMove getNextMove(PlayerMove lastEnemyMove) {
+	virtual PlayerMove getNextMove(PlayerMove lastEnemyMove, int lastResult) {
 		return PlayerMove::treason;
 	}
 	virtual PlayerMove getFirstMove() {

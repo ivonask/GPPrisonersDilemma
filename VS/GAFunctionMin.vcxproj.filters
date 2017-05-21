@@ -19,12 +19,21 @@
     <Filter Include="Header Files\treePrimitives">
       <UniqueIdentifier>{229efd17-fcc0-4ad4-976a-1694bc6c5956}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\strategies\PD">
+      <UniqueIdentifier>{313719fe-900c-429b-bbb3-f5ca2fa4bde9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\strategies\RPS">
+      <UniqueIdentifier>{01cba1b8-e6c3-4f6e-a163-cf3f4184e660}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\PrisDilemmaEvalOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RockPaperScissorsEvalOp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,29 +47,53 @@
     <ClInclude Include="..\PlayerMove.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\AlwaysCooperate.h">
-      <Filter>Header Files\strategies</Filter>
-    </ClInclude>
-    <ClInclude Include="..\PlayingStrategy.h">
-      <Filter>Header Files\strategies</Filter>
-    </ClInclude>
     <ClInclude Include="..\IfLessThanEq.h">
       <Filter>Header Files\treePrimitives</Filter>
     </ClInclude>
     <ClInclude Include="..\IfPositive.h">
       <Filter>Header Files\treePrimitives</Filter>
     </ClInclude>
-    <ClInclude Include="..\AlwaysBetray.h">
-      <Filter>Header Files\strategies</Filter>
-    </ClInclude>
-    <ClInclude Include="..\TitOrTat.h">
-      <Filter>Header Files\strategies</Filter>
-    </ClInclude>
-    <ClInclude Include="..\AlternatingMoves.h">
-      <Filter>Header Files\strategies</Filter>
-    </ClInclude>
     <ClInclude Include="..\PrisonersDilemma.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RockPaperScissors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TitForTwoTats.h">
+      <Filter>Header Files\strategies\PD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TitForTat.h">
+      <Filter>Header Files\strategies\PD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SuspiciousTitForTat.h">
+      <Filter>Header Files\strategies\PD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pavlov.h">
+      <Filter>Header Files\strategies\PD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Grudger.h">
+      <Filter>Header Files\strategies\PD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AlwaysCooperate.h">
+      <Filter>Header Files\strategies\PD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AlwaysBetray.h">
+      <Filter>Header Files\strategies\PD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AlternatingMoves.h">
+      <Filter>Header Files\strategies\PD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TitForTatRPS.h">
+      <Filter>Header Files\strategies\RPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RockPaperScissorsEvalOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ScissorsOnly.h">
+      <Filter>Header Files\strategies\RPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlayingStrategy.h">
+      <Filter>Header Files\treePrimitives</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

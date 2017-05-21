@@ -1,5 +1,13 @@
 ﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (FunctionMin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   main.cpp
-c:\users\ivona\desktop\ecf_1.4.1\ecf_1.4.1\examples\gpprisonersdilemma\prisonersdilemma.h(120): warning C4715: 'PrisonersDilemma::enemyResult': not all control paths return a value
+  RockPaperScissorsEvalOp.cpp
+c:\users\ivona\desktop\ecf_1.4.1\ecf_1.4.1\examples\gpprisonersdilemma\rockpaperscissorsevalop.cpp(14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+c:\users\ivona\desktop\ecf_1.4.1\ecf_1.4.1\examples\gpprisonersdilemma\rockpaperscissors.h(121): warning C4715: 'RockPaperScissors::playMove': not all control paths return a value
+c:\users\ivona\desktop\ecf_1.4.1\ecf_1.4.1\examples\gpprisonersdilemma\rockpaperscissors.h(150): warning C4715: 'RockPaperScissors::sh': not all control paths return a value
+c:\users\ivona\desktop\ecf_1.4.1\ecf_1.4.1\examples\gpprisonersdilemma\rockpaperscissors.h(135): warning C4715: 'RockPaperScissors::enemyResult': not all control paths return a value
+c:\users\ivona\desktop\ecf_1.4.1\ecf_1.4.1\examples\gpprisonersdilemma\rockpaperscissors.h(121): warning C4715: 'RockPaperScissors::playMove': not all control paths return a value
+c:\users\ivona\desktop\ecf_1.4.1\ecf_1.4.1\examples\gpprisonersdilemma\rockpaperscissors.h(150): warning C4715: 'RockPaperScissors::sh': not all control paths return a value
+c:\users\ivona\desktop\ecf_1.4.1\ecf_1.4.1\examples\gpprisonersdilemma\rockpaperscissors.h(135): warning C4715: 'RockPaperScissors::enemyResult': not all control paths return a value
   GAFunctionMin.vcxproj -> C:\Users\Ivona\Desktop\ECF_1.4.1\ECF_1.4.1\examples\GPPrisonersDilemma\VS\Debug\GPPrisonersDilemma.exe
   GAFunctionMin.vcxproj -> C:\Users\Ivona\Desktop\ECF_1.4.1\ECF_1.4.1\examples\GPPrisonersDilemma\VS\Debug\GPPrisonersDilemma.pdb (Full PDB)

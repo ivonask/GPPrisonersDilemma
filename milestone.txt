@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<ECF milestone="Sun Apr 23 17:34:12 2017
+<ECF milestone="Tue May 16 12:36:57 2017
 ">
 	<Genotype>
 		<Tree>
@@ -7,170 +7,241 @@
 			<Entry key="initmaxdepth">5</Entry>
 			<Entry key="mindepth">1</Entry>
 			<Entry key="maxdepth">5</Entry>
-			<Entry key="functionset">+ - * / sin</Entry>
-			<Entry key="terminalset">x y z ifpos iflte[0 1]</Entry>
-			<Entry key="crx.simple">1</Entry>
-			<Entry key="crx.simple.functionprob">0.9</Entry>
-			<Entry key="mut.subtree">0.25</Entry>
-			<Entry key="mut.gauss">0.5</Entry>
-			<Entry key="mut.shrink">0.25</Entry>
+			<Entry key="functionset">+ - * / ifpos iflte</Entry>
+			<Entry key="terminalset">x y z n [1 2 3]</Entry>
 		</Tree>
 	</Genotype>
 	<Registry>
-		<Entry key="Tree.crx.simple">1</Entry>
-		<Entry key="Tree.crx.simple.functionprob">0.9</Entry>
-		<Entry key="Tree.functionset">+ - * / sin</Entry>
+		<Entry key="Tree.functionset">+ - * / ifpos iflte</Entry>
 		<Entry key="Tree.initmaxdepth">5</Entry>
 		<Entry key="Tree.initmindepth">1</Entry>
 		<Entry key="Tree.maxdepth">5</Entry>
 		<Entry key="Tree.mindepth">1</Entry>
-		<Entry key="Tree.mut.gauss">0.5</Entry>
-		<Entry key="Tree.mut.shrink">0.25</Entry>
-		<Entry key="Tree.mut.subtree">0.25</Entry>
-		<Entry key="Tree.terminalset">x y z ifpos iflte[0 1]</Entry>
+		<Entry key="Tree.terminalset">x y z n [1 2 3]</Entry>
 		<Entry key="batch.logfile_"></Entry>
 		<Entry key="batch.remaining_">0</Entry>
 		<Entry key="log.filename">log.txt</Entry>
-		<Entry key="milestone.elapsedtime_">2</Entry>
+		<Entry key="milestone.elapsedtime_">39</Entry>
 		<Entry key="milestone.filename">milestone.txt</Entry>
-		<Entry key="milestone.generation_">20</Entry>
+		<Entry key="milestone.generation_">100</Entry>
 		<Entry key="milestone.interval">0</Entry>
-		<Entry key="population.size">30</Entry>
-		<Entry key="term.maxgen">20</Entry>
+		<Entry key="mutation.indprob">0.4</Entry>
+		<Entry key="population.size">50</Entry>
+		<Entry key="term.maxgen">100</Entry>
 	</Registry>
 	<Population size="1">
 		<HallOfFame size="1">
-			<Individual size="1" gen="0">
-				<FitnessMax value="55"/>
-				<Tree size="7">/ x - * z y x </Tree>
+			<Individual size="1" gen="99">
+				<FitnessMax value="63"/>
+				<Tree size="26">+ D_1.94803 + - D_-1.06712 iflte ifpos y y x z D_1.19416 x iflte + - D_-1.06712 x iflte x D_3.49118 y D_1.8399 D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 		</HallOfFame>
-		<Deme size="30">
+		<Deme size="50">
 			<HallOfFame size="1">
-				<Individual size="1" gen="0">
-					<FitnessMax value="55"/>
-					<Tree size="7">/ x - * z y x </Tree>
+				<Individual size="1" gen="99">
+					<FitnessMax value="63"/>
+					<Tree size="26">+ D_1.94803 + - D_-1.06712 iflte ifpos y y x z D_1.19416 x iflte + - D_-1.06712 x iflte x D_3.49118 y D_1.8399 D_1.61449 y D_1.8399 </Tree>
 				</Individual>
 			</HallOfFame>
 			<Individual size="1">
 				<FitnessMax value="53"/>
-				<Tree size="19">* / / iflte[0 y - sin 1] sin x / sin y - sin z - ifpos 1] </Tree>
-			</Individual>
-			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="19">+ sin - 1] iflte[0 * - ifpos 1] / sin / 1] ifpos - sin z sin x </Tree>
-			</Individual>
-			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="12">/ + 1] sin ifpos - + z y - 1] z </Tree>
+				<Tree size="19">+ D_1.94803 + - D_-1.06712 x iflte + - D_-1.06712 x iflte x D_3.49118 y D_1.8399 D_1.61449 y D_0.848571 </Tree>
 			</Individual>
 			<Individual size="1">
 				<FitnessMax value="53"/>
-				<Tree size="14">* sin + ifpos sin x / sin y - x - ifpos 1] </Tree>
+				<Tree size="15">+ D_1.94803 + - D_-1.06712 x iflte iflte x D_1.94803 y x D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="22">+ * / / iflte[0 y - / 1] x sin x / sin / 1] ifpos - iflte[0 sin x 1] </Tree>
+				<FitnessMax value="27"/>
+				<Tree size="19">+ D_1.94803 + - D_-1.06712 x iflte + - D_-1.06712 x iflte x D_3.49118 y D_1.8399 D_1.61449 x D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="50"/>
+				<Tree size="11">+ D_1.86987 + - D_-1.06712 x iflte D_1.55296 D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="26"/>
+				<Tree size="11">+ D_1.94803 + - D_-0.10813 x iflte x n y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="21"/>
+				<Tree size="11">+ D_1.94803 + - D_1.03714 x iflte x D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="19"/>
+				<Tree size="5">iflte x D_3.49118 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
 				<FitnessMax value="53"/>
-				<Tree size="17">+ sin - 1] iflte[0 * ifpos / sin / 1] ifpos - sin z sin x </Tree>
+				<Tree size="11">+ D_1.84635 + - D_-1.06712 x iflte x D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="24">+ sin z * / / iflte[0 y - sin x / 1] x / sin / 1] ifpos - sin z sin x </Tree>
+				<FitnessMax value="50"/>
+				<Tree size="26">+ D_1.94803 + - D_-1.06712 x iflte iflte - D_-1.06712 x iflte x y y x y x D_1.61449 y * y ifpos n y x </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="20">* / / iflte[0 y - sin 1] / 1] x / sin y - sin z - ifpos 1] </Tree>
+				<FitnessMax value="23"/>
+				<Tree size="1">n </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="60"/>
+				<Tree size="26">+ D_1.94803 + - D_-1.06712 iflte ifpos y y x z D_1.19416 x iflte + - D_-1.06712 x iflte x D_3.49118 y D_1.8399 D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="63"/>
+				<Tree size="26">+ D_1.94803 + - D_-1.06712 iflte ifpos y y x z D_1.19416 x iflte + - D_-1.06712 x iflte x D_3.49118 y D_1.8399 D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
 				<FitnessMax value="53"/>
-				<Tree size="29">* * / / iflte[0 y - sin x sin x / sin / 1] ifpos - iflte[0 sin x / sin y - sin z - ifpos 1] </Tree>
+				<Tree size="15">+ D_1.94803 + - D_-0.10813 x iflte iflte x y y x D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="15">* sin / 1] ifpos / / iflte[0 y - sin z - ifpos 1] </Tree>
+				<FitnessMax value="53"/>
+				<Tree size="15">+ D_1.94803 + - D_-1.06712 x iflte iflte x D_1.94803 y x D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="8">+ sin / 1] ifpos - ifpos 1] </Tree>
+				<FitnessMax value="53"/>
+				<Tree size="15">+ D_1.94803 + - D_1.03714 x iflte iflte x x y x D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="2">sin y </Tree>
+				<FitnessMax value="53"/>
+				<Tree size="11">+ D_1.94803 + - D_-1.06712 x iflte x D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="19">+ sin sin / 1] ifpos / 1] - sin sin ifpos / - x iflte[0 + x z </Tree>
+				<FitnessMax value="21"/>
+				<Tree size="11">- D_1.94803 + - D_-1.06712 x iflte x D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="35"/>
-				<Tree size="12">* / / 1] x - sin 1] / 1] x ifpos </Tree>
+				<FitnessMax value="53"/>
+				<Tree size="19">+ D_1.94803 + - D_-1.06712 x iflte + - D_-1.06712 x iflte x D_3.49118 y D_1.8399 D_1.61449 y D_0.848571 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="28">+ sin sin + ifpos z * / / iflte[0 y - sin x / 1] x / sin / 1] ifpos - sin z - ifpos 1] </Tree>
+				<FitnessMax value="53"/>
+				<Tree size="24">+ D_1.94803 + - D_-1.06712 x iflte iflte - D_-1.06712 x y y y D_1.61449 y * / y y ifpos n y x </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="20">* / + ifpos 1] - sin 1] / 1] x / sin y - sin z - ifpos 1] </Tree>
+				<FitnessMax value="50"/>
+				<Tree size="23">+ D_1.94803 + - D_-1.06712 x iflte iflte - D_-2.37393 x y y y D_1.61449 y iflte - D_1.03714 x D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="19">+ sin sin / 1] ifpos / 1] - sin sin ifpos / - 1] iflte[0 + x z </Tree>
+				<FitnessMax value="30"/>
+				<Tree size="11">- D_1.86987 + - D_1.03714 x iflte D_1.55296 D_1.61449 y D_1.61449 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="15">/ + 1] sin ifpos / / iflte[0 y - sin x / 1] x </Tree>
+				<FitnessMax value="53"/>
+				<Tree size="15">+ D_1.94803 + - D_-1.06712 x iflte iflte x y y x D_1.61449 y D_1.61449 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="30">* * / / iflte[0 y - / 1] x sin x / sin / 1] ifpos - iflte[0 sin x / sin y - sin z - ifpos 1] </Tree>
+				<FitnessMax value="21"/>
+				<Tree size="11">+ D_1.94803 + - D_1.03714 x iflte x D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="26">+ sin - 1] iflte[0 * / / iflte[0 y - sin 1] / 1] x / sin / 1] ifpos - sin z sin x </Tree>
+				<FitnessMax value="53"/>
+				<Tree size="15">+ D_1.94803 + - D_1.03714 x iflte iflte x y y x D_1.61449 y D_1.61449 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="14">* sin / 1] ifpos / sin y - sin z - ifpos 1] </Tree>
+				<FitnessMax value="53"/>
+				<Tree size="15">+ D_1.94803 + - D_1.03714 x iflte iflte x y y x D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="26">+ sin sin + ifpos z * / / iflte[0 y - sin x / 1] x / sin / 1] ifpos + ifpos sin x </Tree>
+				<FitnessMax value="19"/>
+				<Tree size="20">+ D_1.94803 + - * x - n y iflte ifpos y y x z D_1.19416 x - D_-1.06712 x </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="1">x </Tree>
+				<FitnessMax value="53"/>
+				<Tree size="11">+ D_1.86987 + - D_1.03714 x iflte D_1.55296 D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="20">/ + 1] sin ifpos / / iflte[0 y - - + ifpos z / 1] x / 1] x </Tree>
+				<FitnessMax value="53"/>
+				<Tree size="19">+ D_1.94803 + - D_-1.06712 x iflte + - D_-1.06712 x iflte x D_3.49118 y D_1.8399 D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="16">/ + 1] sin ifpos / / iflte[0 y - + ifpos z / 1] x </Tree>
+				<FitnessMax value="53"/>
+				<Tree size="11">+ D_1.94803 + - D_1.03714 x iflte x D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="26">+ sin - 1] iflte[0 * / / iflte[0 y - sin x / 1] x / sin / 1] ifpos - sin z sin x </Tree>
+				<FitnessMax value="53"/>
+				<Tree size="24">+ D_2.75711 + - D_-1.06712 x iflte iflte ifpos n y n * x D_1.55025 * n D_-1.06712 * D_1.03714 y D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="34">+ sin / / iflte[0 y - + ifpos z / 1] x * / / iflte[0 y - sin x / 1] x / sin / 1] ifpos - sin z sin x </Tree>
+				<FitnessMax value="21"/>
+				<Tree size="19">+ D_1.94803 + - D_1.03714 x iflte + - D_-1.06712 x iflte x D_3.49118 y D_1.8399 D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="14">* / / iflte[0 y - sin 1] / 1] x - ifpos iflte[0 </Tree>
+				<FitnessMax value="53"/>
+				<Tree size="21">+ D_1.94803 + - D_-1.06712 x iflte iflte x * x D_1.55025 * n D_-1.06712 * D_1.03714 y D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="4">sin / iflte[0 y </Tree>
+				<FitnessMax value="53"/>
+				<Tree size="15">+ D_1.94803 + - D_-1.06712 x iflte iflte x y y x D_1.61449 y D_1.61449 </Tree>
 			</Individual>
 			<Individual size="1">
-				<FitnessMax value="55"/>
-				<Tree size="8">+ sin / 1] ifpos / 1] ifpos </Tree>
+				<FitnessMax value="53"/>
+				<Tree size="15">+ D_1.94803 + - D_-1.06712 x iflte iflte x D_1.94803 y x D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="50"/>
+				<Tree size="25">+ D_1.94803 + - D_-1.06712 x iflte iflte - D_-1.06712 x y y y D_1.61449 y iflte iflte x y y x D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="20"/>
+				<Tree size="23">+ D_1.94803 + - D_-1.06712 x * / / y y * z z + * n z iflte y z D_1.36436 D_1.69942 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="53"/>
+				<Tree size="15">+ D_1.94803 + - D_-1.06712 x iflte iflte D_1.61449 y y x D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="53"/>
+				<Tree size="18">+ D_1.94803 + - D_-1.06712 x iflte iflte ifpos n y n D_1.94803 y x D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="53"/>
+				<Tree size="25">+ D_1.94803 + - D_-1.06712 x iflte iflte - D_-1.06712 x y y y D_1.61449 y iflte iflte x y y x D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="50"/>
+				<Tree size="11">+ D_1.94803 + - D_-1.06712 x iflte x D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="53"/>
+				<Tree size="24">+ D_1.94803 + - D_-1.06712 x iflte iflte ifpos n y n * x D_1.55025 * n D_-1.06712 * D_1.03714 y D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="24"/>
+				<Tree size="24">+ D_1.94803 + - D_-1.06712 iflte ifpos y y x z D_1.19416 x iflte + x iflte x D_3.49118 y D_0.304598 D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="63"/>
+				<Tree size="26">+ D_1.94803 + - D_-1.06712 iflte ifpos y y x z D_1.19416 x iflte + - D_-1.06712 x iflte x D_3.49118 y D_1.8399 D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="50"/>
+				<Tree size="11">+ D_1.94803 + - D_1.03714 x iflte x D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="21"/>
+				<Tree size="15">+ D_1.94803 + - D_-1.06712 x iflte iflte x x y x D_1.61449 y x </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="63"/>
+				<Tree size="26">+ D_2.21252 + - D_-1.06712 iflte ifpos y y x z D_1.19416 x iflte + - D_-1.06712 x iflte x D_3.49118 y D_1.8399 D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="53"/>
+				<Tree size="19">+ D_1.94803 + - D_-1.06712 x iflte + - D_-1.06712 x iflte x D_3.49118 y D_1.8399 D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="53"/>
+				<Tree size="19">+ D_1.94803 + - D_-1.06712 x iflte + - D_-1.06712 x iflte x D_3.49118 y D_1.8399 D_1.61449 y D_1.8399 </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="19"/>
+				<Tree size="20">+ D_1.94803 + D_1.64953 iflte iflte - D_-1.06712 x y y y D_1.61449 y * D_1.94803 ifpos n y x </Tree>
+			</Individual>
+			<Individual size="1">
+				<FitnessMax value="53"/>
+				<Tree size="11">+ D_1.94803 + - D_1.03714 x iflte x D_1.61449 y D_1.8399 </Tree>
 			</Individual>
 		</Deme>
 	</Population>
